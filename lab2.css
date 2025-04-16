@@ -1,0 +1,103 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #800000;
+  color: white;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Featured Album */
+.featured-album {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Subham Music Company */
+.subham-music {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.subham-music h2 {
+  font-size: 1.5rem;
+}
+
+/* Explore Genres */
+.genres {
+  padding: 20px;
+  text-align: center;
+}
+
+.genres ul {
+  list-style-type: none;
+}
+
+.genres ul li {
+  margin: 10px 0;
+}
+
+.genres a {
+  text-decoration: none;
+  color: #800000;
+}
+
+.genres a:hover {
+  color: #555;
+}
+
+/* Types of Indian Music & Singers - Card Styles */
+.types {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #800000;
+  color: white;
+}
